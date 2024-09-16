@@ -22,7 +22,7 @@ async function lerCSV(arquivo) {
   }
 }
 
-lerCSV('meu_arquivo.csv')
+lerCSV('dados/projeto_TCC.csv')
   .then(dados => {
     const tabela = document.createElement('table');
     const corpoTabela = document.createElement('tbody');
